@@ -36,7 +36,7 @@ This project was built to answer 4 specific questions:
 | Total Reviews | 22,641 | After deduplication |
 | Recommendation Rate | 81.89% | Strong baseline satisfaction |
 | Avg Sentiment Score | 0.27 / 1.0 | Generally positive |
-| Model Correlation | 0.451 | Strong NLP validation ✅ |
+| Model Correlation | 0.451 |  Moderate positive validation |
 | Mismatch Rate | 5.5% | Rating ≠ written sentiment |
 | Lowest Sentiment Dept | Trend (0.22) | Needs quality audit |
 | Top Complaint Themes | Fabric, Fit, Boxy | Communication crisis, not quality crisis |
@@ -150,7 +150,7 @@ Before → "i, petite", "great, quality", "i, hte"
 After  → "disappointed, dress", "awful, fabric", "boxy, top"
 ```
 
-No manual lists. No guessing. Pure linguistics.
+No manual lists. No guessing. Automated polarity based filtering.
 
 ---
 
@@ -165,7 +165,7 @@ The NLP model is validated by correlating sentiment polarity with star ratings:
 4★ → 0.246 sentiment
 5★ → 0.328 sentiment  (highest — correct ✅)
 
-Pearson Correlation: 0.451 → STRONG ✅
+Pearson Correlation: 0.451 → MODERATE POSITIVE CORRELATION✅
 ```
 
 If the model were random, this progression would not exist.
